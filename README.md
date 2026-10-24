@@ -32,3 +32,12 @@ progress-log.md       Bảng theo dõi điểm qua thời gian
 
 - Điểm band trong repo là **ước tính tham khảo** để luyện tập, không thay thế kết quả chấm thi thật.
 - Nên viết bài mới đều đặn (ví dụ 2-3 bài/tuần) và xem lại `progress-log.md` định kỳ để đánh giá xu hướng tiến bộ.
+
+## Web luyện tập tương tác (`docs/`)
+
+`docs/` là một trang tĩnh (chạy được trên GitHub Pages, không cần API key) để làm các bài tập ngắn 5–40 phút. Trang có đồng hồ đếm giờ, đếm số từ, tự lưu bản nháp, đáp án mẫu và chuỗi ngày học.
+
+- **Đề mới:** nhờ Claude Code tạo, ví dụ: "Tạo 3 bài nâng cấp câu chủ đề education". Claude sẽ thêm đề vào `docs/exercises.js`.
+- **Chấm bài:** trên trang, bấm "Copy để nhờ Claude chấm", rồi dán vào Claude Code.
+- **Chạy ở máy:** mở thẳng file `docs/index.html` trong trình duyệt.
+- **Bật GitHub Pages:** vào Settings → Pages → Source: *Deploy from a branch* → chọn thư mục `/docs`.

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IELTS Writing Gym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>IELTS Writing Gym</h1>
+    <p class="sub">Bài tập ngắn 5–40 phút · Nhờ Claude Code tạo đề mới và chấm bài</p>
+    <div id="streak" class="streak"></div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>1. Chọn bài tập</h2>
+      <div id="exercise-list" class="grid"></div>
+    </section>
+
+    <section id="task-panel" class="card hidden">
+      <p id="task-meta" class="note"></p>
+      <h2 id="task-title"></h2>
+      <p id="task-instructions" class="instructions"></p>
+      <div id="task-text" class="task-text"></div>
+      <p class="note">Gợi ý thời gian: <span id="task-time"></span> phút · <span id="timer">00:00</span></p>
+      <textarea id="answer" rows="10" placeholder="Viết câu trả lời của bạn ở đây..."></textarea>
+      <div class="row">
+        <span id="word-count" class="note">0 từ</span>
+        <button id="reveal" class="ghost">Xem đáp án mẫu</button>
+        <button id="copy">Copy để nhờ Claude chấm</button>
+        <button id="done" class="ghost">Đánh dấu đã làm</button>
+      </div>
+      <div id="reference-box" class="hidden">
+        <h3>Đáp án mẫu</h3>
+        <div id="reference" class="task-text"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Lịch sử gần đây</h2>
+      <ul id="history" class="history"></ul>
+    </section>
+
+    <p id="message" class="note"></p>
+  </main>
+
+  <script src="exercises.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

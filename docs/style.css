@@ -1,0 +1,90 @@
+:root {
+  --bg: #f6f5f1;
+  --card: #ffffff;
+  --text: #1f2328;
+  --muted: #5f6b76;
+  --accent: #2f6f4f;
+  --accent-text: #ffffff;
+  --border: #dedbd2;
+  --error: #b42318;
+  --selected: #e6f0ea;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --card: #1e2125;
+    --text: #e8e6e1;
+    --muted: #9aa4ad;
+    --accent: #6fbf8f;
+    --accent-text: #0f1a14;
+    --border: #33373d;
+    --error: #ff8a80;
+    --selected: #24362b;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+header, main { max-width: 820px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 24px; }
+h1 { margin: 0; font-size: 1.6rem; }
+h2 { margin-top: 0; font-size: 1.15rem; }
+.sub, .note { color: var(--muted); font-size: 0.9rem; }
+.streak { font-weight: 600; color: var(--accent); }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  margin: 16px 0;
+}
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+.row input[type="text"], .row input[type="password"] { flex: 1 1 240px; }
+input, select, textarea, button {
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+textarea { width: 100%; resize: vertical; }
+button {
+  cursor: pointer;
+  background: var(--accent);
+  color: var(--accent-text);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+button.ghost { background: transparent; color: var(--text); border-color: var(--border); }
+button:disabled { opacity: 0.55; cursor: progress; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.exercise {
+  text-align: left;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-weight: 400;
+}
+.exercise strong { display: block; }
+.exercise small { color: var(--muted); }
+.exercise.selected { background: var(--selected); border-color: var(--accent); }
+.instructions { font-style: italic; }
+.task-text {
+  white-space: pre-wrap;
+  background: var(--bg);
+  border-left: 3px solid var(--accent);
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+.markdown table { border-collapse: collapse; }
+.markdown th, .markdown td { border: 1px solid var(--border); padding: 4px 8px; }
+.history { padding-left: 18px; }
+.history li { margin-bottom: 4px; }
+.error { color: var(--error); font-weight: 600; }
+.hidden { display: none; }
+code { font-size: 0.9em; }
