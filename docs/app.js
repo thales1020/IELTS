@@ -5,17 +5,76 @@ const MAX_LISTED = 40;
 
 const $ = (id) => document.getElementById(id);
 
-// Real exam prompts become full-length writing tasks; they have no model answer, only the source video.
+// Real exam prompts are split into small steps so a weaker writer can practise one part at a time
+// instead of always writing the full essay.
+const TASK2_STEPS = [
+  {
+    key: "analyse",
+    name: "1. Phân tích đề",
+    minutes: 3,
+    instructions: "Xác định dạng đề, từ khoá và câu hỏi phải trả lời. Viết tiếng Việt cũng được.",
+    scaffold: "Dạng đề (opinion / discussion / adv-disadv / problem-solution / 2 câu hỏi):\nTừ khoá chính:\nĐề hỏi gì (viết lại bằng lời của mình):\nQuan điểm của tôi:\n",
+  },
+  {
+    key: "ideas",
+    name: "2. Lên ý",
+    minutes: 5,
+    instructions: "Tìm 2 ý chính, mỗi ý có 1 lý do và 1 ví dụ cụ thể. Ghi ngắn gọn, tiếng Việt cũng được.",
+    scaffold: "Ý 1:\n  Vì sao:\n  Ví dụ:\nÝ 2:\n  Vì sao:\n  Ví dụ:\n",
+  },
+  {
+    key: "intro",
+    name: "3. Mở bài",
+    minutes: 7,
+    instructions: "Viết mở bài 2 câu bằng tiếng Anh: (1) paraphrase đề, (2) nêu rõ quan điểm và 2 ý chính.",
+    scaffold: "",
+  },
+  {
+    key: "body",
+    name: "4. Một thân bài",
+    minutes: 12,
+    instructions: "Viết 1 đoạn thân bài (~100 từ): câu chủ đề → giải thích → ví dụ cụ thể → câu kết đoạn.",
+    scaffold: "",
+  },
+  {
+    key: "full",
+    name: "5. Cả bài",
+    minutes: 40,
+    instructions: "Viết bài Task 2 hoàn chỉnh, ít nhất 250 từ trong 40 phút.",
+    scaffold: "",
+  },
+];
+const TASK1_STEPS = [
+  {
+    key: "analyse",
+    name: "1. Phân tích + overview",
+    minutes: 5,
+    instructions: "Mở video xem biểu đồ. Ghi ra 2 đặc điểm nổi bật nhất (xu hướng chính, cao nhất / thấp nhất).",
+    scaffold: "Loại biểu đồ:\nĐơn vị / thời gian:\nĐặc điểm nổi bật 1:\nĐặc điểm nổi bật 2:\n",
+  },
+  {
+    key: "intro",
+    name: "2. Mở bài + overview",
+    minutes: 8,
+    instructions: "Viết câu paraphrase đề và đoạn overview 1–2 câu bằng tiếng Anh, chưa cần số liệu.",
+    scaffold: "",
+  },
+  {
+    key: "full",
+    name: "3. Cả bài",
+    minutes: 20,
+    instructions: "Viết bài Task 1 hoàn chỉnh, ít nhất 150 từ trong 20 phút. Biểu đồ/bản đồ xem trong video nguồn.",
+    scaffold: "",
+  },
+];
+
 const FORUM = (window.FORUM_PROMPTS || []).map((p) => ({
   id: p.id,
   date: "",
   group: `forum${p.task}`,
   type: `Đề thật Task ${p.task}`,
   title: p.prompt.length > 110 ? `${p.prompt.slice(0, 110)}…` : p.prompt,
-  instructions: p.task === 2
-    ? "Viết bài Task 2 ít nhất 250 từ trong 40 phút."
-    : "Viết bài Task 1 ít nhất 150 từ trong 20 phút. Biểu đồ/bản đồ xem trong video nguồn.",
-  minutes: p.task === 2 ? 40 : 20,
+  steps: p.task === 2 ? TASK2_STEPS : TASK1_STEPS,
   task_text: p.uncertain
     ? `${p.prompt}\n\n(Đề chép từ ảnh chụp video, có thể thiếu chữ, hãy đối chiếu với video.)`
     : p.prompt,
@@ -25,7 +84,17 @@ const FORUM = (window.FORUM_PROMPTS || []).map((p) => ({
 }));
 const ALL = [...window.EXERCISES.map((ex) => ({ ...ex, group: "drill" })), ...FORUM];
 let current = null;
+let currentStep = null;
 let timerHandle = null;
+
+// Drills have no steps; treat the whole exercise as a single step.
+function stepsOf(ex) {
+  return ex.steps || [{ key: "", name: "", minutes: ex.minutes, instructions: ex.instructions, scaffold: "" }];
+}
+
+function draftKey() {
+  return DRAFT_PREFIX + current.id + (currentStep.key ? `:${currentStep.key}` : "");
+}
 
 function readStorage(key, fallback) {
   try { return localStorage.getItem(key) ?? fallback; } catch { return fallback; }
@@ -111,15 +180,36 @@ function startTimer() {
   }, 1000);
 }
 
+function renderStepTabs() {
+  const tabs = $("step-tabs");
+  tabs.innerHTML = "";
+  if (!current.steps) return;
+  for (const step of current.steps) {
+    const btn = document.createElement("button");
+    btn.className = "ghost" + (step === currentStep ? " active" : "");
+    btn.textContent = `${step.name} · ${step.minutes}′`;
+    btn.addEventListener("click", () => openStep(step));
+    tabs.appendChild(btn);
+  }
+}
+
+function openStep(step) {
+  currentStep = step;
+  renderStepTabs();
+  $("task-instructions").textContent = step.instructions;
+  $("task-time").textContent = step.minutes;
+  $("answer").value = readStorage(draftKey(), step.scaffold);
+  $("word-count").textContent = `${countWords($("answer").value)} từ`;
+  $("message").textContent = "";
+  startTimer();
+  $("answer").focus({ preventScroll: true });
+}
+
 function openExercise(ex) {
   current = ex;
   $("task-meta").textContent = ex.date ? `${ex.type} · ${ex.date}` : ex.type;
   $("task-title").textContent = ex.title;
-  $("task-instructions").textContent = ex.instructions;
   $("task-text").textContent = ex.task_text;
-  $("task-time").textContent = ex.minutes;
-  $("answer").value = readStorage(DRAFT_PREFIX + ex.id, "");
-  $("word-count").textContent = `${countWords($("answer").value)} từ`;
   $("reference").textContent = ex.reference_answer;
   $("reference-box").classList.add("hidden");
   $("reveal").classList.toggle("hidden", !ex.reference_answer);
@@ -129,18 +219,17 @@ function openExercise(ex) {
     $("video-link").textContent = `${ex.source} (YouTube)`;
   }
   $("task-panel").classList.remove("hidden");
-  $("message").textContent = "";
   renderExercises();
-  startTimer();
   $("task-panel").scrollIntoView({ behavior: "smooth" });
-  $("answer").focus({ preventScroll: true });
+  openStep(stepsOf(ex)[0]);
 }
 
 function copyForGrading() {
   if (!current) return;
-  const text = `Chấm bài "${current.title}" (id: ${current.id}, dạng: ${current.type})
+  const stepLabel = currentStep.name ? `, bước: ${currentStep.name}` : "";
+  const text = `Chấm bài "${current.title}" (id: ${current.id}, dạng: ${current.type}${stepLabel})
 
-Đề: ${current.instructions}
+Yêu cầu: ${currentStep.instructions}
 
 ${current.task_text}
 
@@ -156,8 +245,9 @@ ${$("answer").value.trim()}
 
 function markDone() {
   if (!current) return;
-  const items = loadHistory().filter((i) => !(i.id === current.id && i.date === isoDate(new Date())));
-  items.unshift({ id: current.id, date: isoDate(new Date()), type: current.type, title: current.title });
+  const type = currentStep.name ? `${current.type} · ${currentStep.name}` : current.type;
+  const items = loadHistory().filter((i) => !(i.id === current.id && i.type === type && i.date === isoDate(new Date())));
+  items.unshift({ id: current.id, date: isoDate(new Date()), type, title: current.title });
   writeStorage(HISTORY_STORAGE, JSON.stringify(items.slice(0, 100)));
   clearInterval(timerHandle);
   renderHistory();
@@ -179,7 +269,7 @@ function init() {
   $("done").addEventListener("click", markDone);
   $("answer").addEventListener("input", () => {
     $("word-count").textContent = `${countWords($("answer").value)} từ`;
-    if (current) writeStorage(DRAFT_PREFIX + current.id, $("answer").value);
+    if (current) writeStorage(draftKey(), $("answer").value);
   });
 }
 

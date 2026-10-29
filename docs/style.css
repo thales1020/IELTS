@@ -74,6 +74,8 @@ button:disabled { opacity: 0.55; cursor: progress; }
 .exercise small { color: var(--muted); }
 .exercise.selected { background: var(--selected); border-color: var(--accent); }
 .instructions { font-style: italic; }
+#step-tabs button { font-weight: 400; }
+#step-tabs button.active { font-weight: 700; }
 .task-text {
   white-space: pre-wrap;
   background: var(--bg);
