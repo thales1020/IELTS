@@ -17,9 +17,7 @@ const FORUM = (window.FORUM_PROMPTS || []).map((p) => ({
     : "Viết bài Task 1 ít nhất 150 từ trong 20 phút. Biểu đồ/bản đồ xem trong video nguồn.",
   minutes: p.task === 2 ? 40 : 20,
   task_text: p.uncertain
-    ? `${p.prompt}
-
-(Đề chép từ ảnh chụp video, có thể thiếu chữ, hãy đối chiếu với video.)`
+    ? `${p.prompt}\n\n(Đề chép từ ảnh chụp video, có thể thiếu chữ, hãy đối chiếu với video.)`
     : p.prompt,
   reference_answer: "",
   video: p.video,
