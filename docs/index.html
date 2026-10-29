@@ -16,6 +16,17 @@
   <main>
     <section class="card">
       <h2>1. Chọn bài tập</h2>
+      <div class="row">
+        <select id="filter">
+          <option value="all">Tất cả</option>
+          <option value="drill">Bài tập ngắn</option>
+          <option value="forum2" selected>Đề thật Task 2 (The Forum)</option>
+          <option value="forum1">Đề thật Task 1 (The Forum)</option>
+        </select>
+        <input id="search" type="text" placeholder="Tìm theo từ khoá, ví dụ: environment">
+        <button id="random" class="ghost">🎲 Ngẫu nhiên</button>
+      </div>
+      <p id="list-count" class="note"></p>
       <div id="exercise-list" class="grid"></div>
     </section>
 
@@ -24,6 +35,7 @@
       <h2 id="task-title"></h2>
       <p id="task-instructions" class="instructions"></p>
       <div id="task-text" class="task-text"></div>
+      <p id="video-box" class="note hidden">Nguồn: <a id="video-link" target="_blank" rel="noopener"></a></p>
       <p class="note">Gợi ý thời gian: <span id="task-time"></span> phút · <span id="timer">00:00</span></p>
       <textarea id="answer" rows="10" placeholder="Viết câu trả lời của bạn ở đây..."></textarea>
       <div class="row">
@@ -47,6 +59,7 @@
   </main>
 
   <script src="exercises.js"></script>
+  <script src="forum-prompts.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
