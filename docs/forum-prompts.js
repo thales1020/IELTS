@@ -12,6 +12,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-4HXmbCToSnQ-0",
+  "order": 1,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=4HXmbCToSnQ",
+  "video_title": "HỐT FULL 2 TASK WRITING CÙNG HUY FORUM 9.0 IELTS",
+  "prompt": "The tables below show response to a questionnaire given by two groups of people (club members and the general public) who showed their opinions about a new theatre. [tables]",
+  "uncertain": false
+ },
+ {
+  "id": "forum-4HXmbCToSnQ-1",
+  "order": 1,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=4HXmbCToSnQ",
+  "video_title": "HỐT FULL 2 TASK WRITING CÙNG HUY FORUM 9.0 IELTS",
+  "prompt": "Hosting an international sports event brings many benefits. Others think it has only disadvantages. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
   "id": "forum-sLG2muExg00-0",
   "order": 2,
   "task": 2,
@@ -30,6 +48,51 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-T_RQgMh3Sxs-0",
+  "order": 4,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=T_RQgMh3Sxs",
+  "video_title": "Giải đề Writing - Live 19/3 cùng Huy Forum 9.0 IELTS",
+  "prompt": "Some people say that students who achieve the highest scores in their exams should be rewarded. Others say that those who show progress should be rewarded instead. Discuss both these views and give your own opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-DydoWwufL8g-0",
+  "order": 5,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=DydoWwufL8g",
+  "video_title": "Solving Writing problems with Huy Forum 9.0 IELTS - Live 12/3",
+  "prompt": "In the modern world, a university education is essential in order to get a rewarding job and earn a high salary. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-Jq-pCzCfIRc-0",
+  "order": 6,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Jq-pCzCfIRc",
+  "video_title": "Học Writing cùng Huy Forum 9.0 IELTS - Live 7/3",
+  "prompt": "Students today can access information online, so libraries are no longer necessary. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-3f2sC8XrNV0-0",
+  "order": 7,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=3f2sC8XrNV0",
+  "video_title": "Cùng Huy Forum 9.0 IELTS giải đề Writing ngày 5/3",
+  "prompt": "Some people think that charity organizations should only offer help to people of their own country. However, others believe that these organizations should give aid to people in great need wherever they live. Discuss both views and give your own opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-50Tnql1hXwY-0",
+  "order": 8,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=50Tnql1hXwY",
+  "video_title": "Giải đề Writing cực khó ngày 4/3 cùng Huy Forum 9.0 IELTS",
+  "prompt": "Some people argue that job satisfaction is more important than job security, while others believe that they cannot always expect job satisfaction and a permanent job is more important. Discuss both these views and give your own opinion.",
+  "uncertain": false
+ },
+ {
   "id": "forum-cckgqIi0UKE-0",
   "order": 9,
   "task": 2,
@@ -37,6 +100,42 @@ window.FORUM_PROMPTS = [
   "video_title": "Giải đề Writing cùng Huy Forum 9.0 IELTS - Live 25/2",
   "prompt": "There are several factors that motivate people to stay in the workforce, and money is the most important factor. To what extent do you agree or disagree?",
   "uncertain": false
+ },
+ {
+  "id": "forum-uYjl9J_9tyc-0",
+  "order": 10,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=uYjl9J_9tyc",
+  "video_title": "Mở bát đầu năm lụm đề Writing mùng 1 Tết cùng Huy Forum 9.0 IELTS",
+  "prompt": "Some feel that governments should prioritize healthcare instead of other important areas. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-RS2oXGo2rdc-0",
+  "order": 11,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=RS2oXGo2rdc",
+  "video_title": "Học Writing Task 2 cùng Huy Forum 9.0 IELTS - Live 14/2",
+  "prompt": "Many people try to balance work and other parts of their life. However, this is very difficult to do. What are the problems associated with this? What is the best way to achieve a better balance?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-TYmc9kt2RMk-0",
+  "order": 12,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=TYmc9kt2RMk",
+  "video_title": "Giải đề mới Task 2 ngày 7/2 cùng Huy Forum 9.0 IELTS",
+  "prompt": "Some people prefer to live in a house, while others feel that there are more advantages to living in an apartment. Are there more advantages than disadvantages of living in a house compared with living in an apartment.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-yR4v-MyIYxY-0",
+  "order": 13,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=yR4v-MyIYxY",
+  "video_title": "Giải đề Task 2 mới toanh ngày 28/1 cùng Huy Forum 9.0 IELTS",
+  "prompt": "Many people living in cities these days do not get enough physical exercise. What are the causes of this? [?]",
+  "uncertain": true
  },
  {
   "id": "forum-FxPhMpuUuVQ-0",
@@ -156,6 +255,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-criARuQzuak-0",
+  "order": 27,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=criARuQzuak",
+  "video_title": "Giải full process Task 1 + Task 2 đề IELTS ngày 23/8",
+  "prompt": "[?] children in school for sports rather than to support professional sports and arts that perform for the general public. To what extent do you agree/disagree?",
+  "uncertain": true
+ },
+ {
+  "id": "forum-criARuQzuak-1",
+  "order": 27,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=criARuQzuak",
+  "video_title": "Giải full process Task 1 + Task 2 đề IELTS ngày 23/8",
+  "prompt": "The diagram below shows the process of making soft cheese. [process diagram]",
+  "uncertain": true
+ },
+ {
   "id": "forum-SHNOw2hvwsM-0",
   "order": 28,
   "task": 2,
@@ -174,12 +291,30 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-_L4f0Hg-wNg-0",
+  "order": 30,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=_L4f0Hg-wNg",
+  "video_title": "Giải đề Task 2 ngày 12/8 cực khó cùng anh Huy Forum",
+  "prompt": "Everyone should become vegetarian because they do not need to eat meat to have a healthy diet. To what extent do you aree or disagree?",
+  "uncertain": false
+ },
+ {
   "id": "forum-949laoMwJb0-0",
   "order": 31,
   "task": 2,
   "video": "https://www.youtube.com/watch?v=949laoMwJb0",
   "video_title": "Solving the Ultra-Tricky July 29th Task 2 with Huy Forum",
   "prompt": "If people could choose between a life without working or a life spending too much time working, people would choose a life without work. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-ubnrkd8dYfc-0",
+  "order": 32,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=ubnrkd8dYfc",
+  "video_title": "Giải đề IELTS Task 2 ngày 22/7 cùng anh Huy 9.0 IELTS",
+  "prompt": "Children nowadays frequently watch TV and play computer games. Some people think that such activities do not help develop their mental abilities. Do you agree or disagree?",
   "uncertain": false
  },
  {
@@ -273,6 +408,15 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-ZFl8fn_kV94-0",
+  "order": 42,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=ZFl8fn_kV94",
+  "video_title": "Solving the latest IELTS Writing Task 2 questions with Huy, a 9.0 IELTS scorer",
+  "prompt": "Some people believe that housing is a basic human right for all people and the government should provide free houses for everyone. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
   "id": "forum-xiOmJCyccgA-0",
   "order": 43,
   "task": 2,
@@ -306,6 +450,42 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=zPBBQmMUEcg",
   "video_title": "Giải đề IELTS Task 2 ngày 13/5 cùng anh Huy Forum 9.0 IELTS",
   "prompt": "In the past, important knowledge of culture and history was stored in museums. Nowadays information is freely available on the Internet; therefore, museums are no longer needed. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-7QJca2j6dxs-0",
+  "order": 46,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=7QJca2j6dxs",
+  "video_title": "HOT Giải Đề CỰC KHÓ TASK 2 ngày 3/5 cùng anh Huy 9.0 IELTS",
+  "prompt": "It has been suggested that all young adults should be required to undertake a period of unpaid work helping people in the community. Would the drawbacks be greater than the benefits to the community and the young adults themselves?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-avUQeWPQVTw-0",
+  "order": 47,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=avUQeWPQVTw",
+  "video_title": "Giải trọn đề Task 2 Writing IELTS ra ngày 14/4 cùng anh Huy 9.0 IELTS",
+  "prompt": "Some people believe that secondary students should learn international news as a subject at school, while others think it's a waste of time. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum--t4RPANjXZg-0",
+  "order": 48,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=-t4RPANjXZg",
+  "video_title": "Solve Task 2 overseas on April 12 (easy to reissue) with Mr. Huy Forum IELTS 9.0",
+  "prompt": "It is desirable for a school to have its own small farm in order to help educate its student about agriculture and other subjects. To what extent do you agree or disagree with this statement?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-038f0_DrV7c-0",
+  "order": 49,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=038f0_DrV7c",
+  "video_title": "Solve IELTS Task 2 on April 5 with Mr. Huy 9.0 IELTS",
+  "prompt": "Some people prefer to have temporary jobs, which means they only work a few months in a year and use the rest of the time to do what they want. Is it a positive or negative development?",
   "uncertain": false
  },
  {
@@ -351,6 +531,15 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=j9ICDpRCPL8",
   "video_title": "Solve the full super difficult computer test on March 6 IELTS Writing with Huy 9.0 IELTS",
   "prompt": "Scientists around the world should work together to do scientific research, but some people worry this may have disadvantages. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-y7v_wJwIZWA-0",
+  "order": 56,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=y7v_wJwIZWA",
+  "video_title": "Solve the computer problem on February 25 IELTS Writing with Mr. Huy 9.0 IELTS",
+  "prompt": "If a product is good or it meets people's needs, people will buy it. So advertising is unnecessary and no more than entertainment. To what extent do you agree or disagree?",
   "uncertain": false
  },
  {
@@ -408,6 +597,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-m5KYPR9xcIE-0",
+  "order": 60,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=m5KYPR9xcIE",
+  "video_title": "Solve all Writing questions on February 12 on paper with Huy Forum 9.0 IELTS",
+  "prompt": "The table below shows the percentage of first year students who gave 'very good' rating to the resources provided by the college, for three courses. [table]",
+  "uncertain": false
+ },
+ {
+  "id": "forum-m5KYPR9xcIE-1",
+  "order": 60,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=m5KYPR9xcIE",
+  "video_title": "Solve all Writing questions on February 12 on paper with Huy Forum 9.0 IELTS",
+  "prompt": "Nowadays, many people spend less and less time at home. What are the causes of this? What are the effects of this on individuals and on the society?",
+  "uncertain": false
+ },
+ {
   "id": "forum-wMc_LyU1Yg0-0",
   "order": 61,
   "task": 2,
@@ -423,6 +630,15 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=JwJpbCW25u4",
   "video_title": "IELTS Writing 17.1 Exam Walkthrough with Huy Forum",
   "prompt": "Some people think that parents should have a strong influence on how their children choose life partners or friends. Others think it should be an independent decision. Discuss both views.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-nRrIQPCwI38-0",
+  "order": 63,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=nRrIQPCwI38",
+  "video_title": "Giải đề IELTS Writing MỚI NHẤT tại Việt Nam cùng anh Huy Forum 9.0",
+  "prompt": "Some people believe governments should spend money on building train and subway lines to reduce traffic congestion. Others think that building more and wider roads is the better way to reduce traffic congestion. Discuss both views and give your opinion.",
   "uncertain": false
  },
  {
@@ -462,12 +678,48 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-MKWrGbjmFp4-0",
+  "order": 67,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=MKWrGbjmFp4",
+  "video_title": "Solving IELTS Task 2 questions from December 30th - Check NOW!",
+  "prompt": "Many people around the world use social media everyday to keep in touch with other people and get news events. Do you think that advantages outweigh the disadvantages?",
+  "uncertain": false
+ },
+ {
   "id": "forum-uKGDeU5_Eus-0",
   "order": 68,
   "task": 1,
   "video": "https://www.youtube.com/watch?v=uKGDeU5_Eus",
   "video_title": "HOT - Giải full đề Writing 24/12 tại VN cùng anh Huy Forum",
   "prompt": "The line graph shows the prison population in a European country between 1911 and 2001. [line graphs: male and female prison population 1911-2001]",
+  "uncertain": false
+ },
+ {
+  "id": "forum-PUEA5jbOv7U-0",
+  "order": 69,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=PUEA5jbOv7U",
+  "video_title": "Giải đề Writing Task 2 ra ngày 18.12 cùng anh Huy 9.0 IELTS",
+  "prompt": "The tendency that news reports in media focus on problems and emergencies rather than on positive developments is harmful for individuals and the society. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-itcydAEq73Q-0",
+  "order": 70,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=itcydAEq73Q",
+  "video_title": "Giải full đề Writing ngày 16/12 cùng anh Huy 9.0 IELTS",
+  "prompt": "The table shows the distance covered in various modes of transport. [table]",
+  "uncertain": false
+ },
+ {
+  "id": "forum-itcydAEq73Q-1",
+  "order": 70,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=itcydAEq73Q",
+  "video_title": "Giải full đề Writing ngày 16/12 cùng anh Huy 9.0 IELTS",
+  "prompt": "Nowadays, more and more people from different cities are spending more time away from their families. What are the possible reasons and the effects on the people themselves and their families?",
   "uncertain": false
  },
  {
@@ -487,6 +739,33 @@ window.FORUM_PROMPTS = [
   "video_title": "Solving the Full 12/13 Computer-Delivered Writing Test with Huy 9.0 IELTS",
   "prompt": "Some people believe that it is important for parents to tell or read stories for their children. Others think that parents don't have to do this because there are many sources for children to read like books, TV and movies. Discuss both views and give your opinion.",
   "uncertain": false
+ },
+ {
+  "id": "forum-Y4CaJ7ms_lc-0",
+  "order": 72,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Y4CaJ7ms_lc",
+  "video_title": "Giải đề IELTS thật nước ngoài ra ngày 9.12 cùng anh Huy Forum",
+  "prompt": "Some feel that tourism endangers culture while others feel it is beneficial. Discuss both sides and give your own opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-Gq4ulinbyAI-0",
+  "order": 73,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=Gq4ulinbyAI",
+  "video_title": "Giải full đề Writing IELTS ngày 7/12 cùng anh Huy 9.0 IELTS",
+  "prompt": "The chart below gives information about European people of different age groups who went to [?] gym once a month or more between 1990 and 2010. Summarise the information by selecting and reporting the main features and make comparisons where relevant. [line graph]",
+  "uncertain": true
+ },
+ {
+  "id": "forum-Gq4ulinbyAI-1",
+  "order": 73,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Gq4ulinbyAI",
+  "video_title": "Giải full đề Writing IELTS ngày 7/12 cùng anh Huy 9.0 IELTS",
+  "prompt": "Organised tour to remote areas and community is increasingly popular. Is it a positive or negative development for the local people and the environment?",
+  "uncertain": true
  },
  {
   "id": "forum-9_Jd3hmu9kE-0",
@@ -588,6 +867,15 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-wQJySNG5u3k-0",
+  "order": 81,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=wQJySNG5u3k",
+  "video_title": "Giải đề Task 2 ra ngày 21.10 Writing IELTS cùng anh Huy Forum",
+  "prompt": "In some cities, public parks and open spaces are changed into gardens where local residents can grow their fruit and vegetables. Do you think the benefits outweigh the disadvantages?",
+  "uncertain": false
+ },
+ {
   "id": "forum-ZCAFRoYqnv0-0",
   "order": 82,
   "task": 2,
@@ -642,6 +930,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-X8MEXHO28VM-0",
+  "order": 86,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=X8MEXHO28VM",
+  "video_title": "Giải đề IELTS Writing Task 2 mới ra tháng 9 2024",
+  "prompt": "It is believed that university students have to spend a lot of time to study, but it is also essential for them to be involved in other activities. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-X8MEXHO28VM-1",
+  "order": 86,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=X8MEXHO28VM",
+  "video_title": "Giải đề IELTS Writing Task 2 mới ra tháng 9 2024",
+  "prompt": "Transport preferences among young people from different countries [bar chart; only chart title visible]",
+  "uncertain": false
+ },
+ {
   "id": "forum-uaTqcC63o0E-0",
   "order": 87,
   "task": 1,
@@ -657,6 +963,15 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=uaTqcC63o0E",
   "video_title": "Live giải Writing Task 1 dạng Table + Task 2 cùng Huy Forum",
   "prompt": "(Task 2 also shown:) Some think that developing a successful career is more important than spending time with family and friends, while others disagree. Discuss both views and give your own opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-0aG9GR9be-c-0",
+  "order": 88,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=0aG9GR9be-c",
+  "video_title": "Giải đề Task 2 mới nhất cùng cùng Huy Forum",
+  "prompt": "Some people think that schools should teach young students about the role of money. To what extent do you agree or disagree?",
   "uncertain": false
  },
  {
@@ -693,6 +1008,15 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=z2MG2BumVMo",
   "video_title": "Giải đề 22/8 Writing IELTS Task 1 + Pie chart Task 1",
   "prompt": "In numerous nations, there is a growing trend for individuals to frequently discuss financial matters, such as their earnings or expenditures, in everyday conversation. What are the reasons behind this phenomenon? Is it advantageous or detrimental?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-JtUlDcaj2HQ-0",
+  "order": 92,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=JtUlDcaj2HQ",
+  "video_title": "Giải đề IELTS Writing ngày 20/8 cùng Huy Forum 9.0 IELTS",
+  "prompt": "The only solution to improve safety on roads is to stricter punishment for driving offences. To what extent do you agree or disagree?",
   "uncertain": false
  },
  {
@@ -903,6 +1227,42 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-N7N5f5MNXRw-0",
+  "order": 106,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=N7N5f5MNXRw",
+  "video_title": "Hướng dẫn các bài TASK 1 IELTS CỰC KHÓ trong các đề thi thật",
+  "prompt": "[instruction sentence not visible; chart title: Percentage change in average house prices in five cities 1990-2002 compared with 1989] [bar chart]",
+  "uncertain": true
+ },
+ {
+  "id": "forum-HeTyXiXVpDI-0",
+  "order": 107,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=HeTyXiXVpDI",
+  "video_title": "Giải toàn bộ 2 đề IELTS Writing THÁNG 6/2024",
+  "prompt": "Ambition is a positive quality for people to have in society today. How important is it for people who want to succeed in life? Is it a positive or negative characteristic?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-HeTyXiXVpDI-1",
+  "order": 107,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=HeTyXiXVpDI",
+  "video_title": "Giải toàn bộ 2 đề IELTS Writing THÁNG 6/2024",
+  "prompt": "The older generations tend to have very traditional ideas about how people should live, think and behave. However, some people believe that these ideas are not helpful in preparing younger generations for modern life. To what extent do you agree or disagree with this view?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-LctkyEzj2NA-0",
+  "order": 108,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=LctkyEzj2NA",
+  "video_title": "Sửa bài viết IELTS trên live cho học sinh, coi liền!",
+  "prompt": "Some people think that competition at work, at school and in daily life is a good thing. Others believe that we should try to cooperate more, rather than competing against each other. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
   "id": "forum-CwzT-nnDU58-0",
   "order": 109,
   "task": 1,
@@ -936,6 +1296,15 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=FnuA6BHDzqk",
   "video_title": "Hướng dẫn chi tiết To what extent IELTS và Discuss both views cùng Huy Forum",
   "prompt": "Nowadays, people often travel a very long distance to work. Why? What are the impacts?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-a0x28HIg8QQ-0",
+  "order": 111,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=a0x28HIg8QQ",
+  "video_title": "TUYỆT KỸ IELTS Writing Task 1 cùng Huy Forum",
+  "prompt": "The table and charts below give information on the police budget for 2017 and 2018 in one area of Britain. The table shows where the money came from and the charts show how it was distributed. [table + pie charts: Police Budget 2017-2018 (in £m), How the money was spent]",
   "uncertain": false
  },
  {
@@ -1020,6 +1389,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-Ss5DfTC3AaI-0",
+  "order": 118,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Ss5DfTC3AaI",
+  "video_title": "[Live 112] Viết bài IELTS trong livestream cùng NCS. TS 8.5 IELTS",
+  "prompt": "The best way to teach children to co-operate is through team sports at school. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-Ss5DfTC3AaI-1",
+  "order": 118,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Ss5DfTC3AaI",
+  "video_title": "[Live 112] Viết bài IELTS trong livestream cùng NCS. TS 8.5 IELTS",
+  "prompt": "As major cities around the world are growing, so are their problems. What are these problems for young people living in cities. What can be the solutions?",
+  "uncertain": false
+ },
+ {
   "id": "forum-aZHDtehzoFA-0",
   "order": 119,
   "task": 2,
@@ -1038,6 +1425,60 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-zGlR6_7bP7E-0",
+  "order": 120,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=zGlR6_7bP7E",
+  "video_title": "Viết 5 bài IELTS trong 1h cùng NCS. TS 8.5 IELTS",
+  "prompt": "Some people say that too much attention and too many resources are given to the protection of wild animals and birds. Do you agree or disagree with this opinion?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-zGlR6_7bP7E-1",
+  "order": 120,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=zGlR6_7bP7E",
+  "video_title": "Viết 5 bài IELTS trong 1h cùng NCS. TS 8.5 IELTS",
+  "prompt": "University students should pay the full cost of their studies because a university education benefits individuals rather than society as a whole. To what extent do you agree or disagree with this opinion?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-zGlR6_7bP7E-2",
+  "order": 120,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=zGlR6_7bP7E",
+  "video_title": "Viết 5 bài IELTS trong 1h cùng NCS. TS 8.5 IELTS",
+  "prompt": "Some countries have introduced laws to limit working hours for employees. Why are these laws introduced? Do you think they are a positive or negative development?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-zGlR6_7bP7E-3",
+  "order": 120,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=zGlR6_7bP7E",
+  "video_title": "Viết 5 bài IELTS trong 1h cùng NCS. TS 8.5 IELTS",
+  "prompt": "In many countries, people now wear western clothes such as suits and jeans rather than traditional clothing. Why is this the case? Is this a positive or negative development?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-zGlR6_7bP7E-4",
+  "order": 120,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=zGlR6_7bP7E",
+  "video_title": "Viết 5 bài IELTS trong 1h cùng NCS. TS 8.5 IELTS",
+  "prompt": "Students leave high school without learning how to manage their money. What are the reasons and solutions for this issue?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-zGlR6_7bP7E-5",
+  "order": 120,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=zGlR6_7bP7E",
+  "video_title": "Viết 5 bài IELTS trong 1h cùng NCS. TS 8.5 IELTS",
+  "prompt": "Space travel to the Moon is often cited as one giant leap for mankind. Yet some people argue that this achievement made little difference to [?]",
+  "uncertain": true
+ },
+ {
   "id": "forum-WuJypU7YG4k-0",
   "order": 121,
   "task": 2,
@@ -1053,6 +1494,24 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=oexaJ6laAXU",
   "video_title": "[Live 107] Full giải đề IELTS tháng 5 mới nhất cùng NCS. TS 8.5 IELTS",
   "prompt": "In many countries, the number of animals and plants is decreasing. Why do think this is happening? How can this issue be solved?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-nNZQKO0VXgk-0",
+  "order": 123,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=nNZQKO0VXgk",
+  "video_title": "[LIVE 105] Full giải đề Task 2 IELTS cùng NCS. TS 8.5 IELTS",
+  "prompt": "In developing countries, children in rural communities have less access to education. Some people believe that the problem can be solved by providing more schools and teachers, while others think that the problem can be solved by providing computers and Internet access. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-nNZQKO0VXgk-1",
+  "order": 123,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=nNZQKO0VXgk",
+  "video_title": "[LIVE 105] Full giải đề Task 2 IELTS cùng NCS. TS 8.5 IELTS",
+  "prompt": "Some people claim that fastfood should be made more expensive to help reduce obesity. To what extent do you agree or disagree?",
   "uncertain": false
  },
  {
@@ -1101,6 +1560,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-ArrzgULKZTI-0",
+  "order": 127,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=ArrzgULKZTI",
+  "video_title": "[Live 101]  - Giải đề IELTS mới nhất tháng 5 cùng NCS. Tiến Sĩ 8.5 IELTS",
+  "prompt": "Car ownership has increased so rapidly over the past thirty years that in many cities around the world there are constant traffic jams. How true do you think this statement is? What measures can governments take to discourage people from owning cars?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-ArrzgULKZTI-1",
+  "order": 127,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=ArrzgULKZTI",
+  "video_title": "[Live 101]  - Giải đề IELTS mới nhất tháng 5 cùng NCS. Tiến Sĩ 8.5 IELTS",
+  "prompt": "Some people think that social media has a huge negative impact on both individuals and society. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
   "id": "forum-G65H-88LGi8-0",
   "order": 128,
   "task": 2,
@@ -1146,6 +1623,15 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-iHrz_BQDzZA-0",
+  "order": 131,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=iHrz_BQDzZA",
+  "video_title": "Giải full đề IELTS Writing tháng 5 cùng Huy (8.5 Writing)",
+  "prompt": "In many nations, there is a growing emphasis on sustainable living and reducing environmental impact. What are the challenges of adopting a sustainable lifestyle?",
+  "uncertain": false
+ },
+ {
   "id": "forum-nY4SdDFM8yo-0",
   "order": 132,
   "task": 2,
@@ -1173,6 +1659,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-Ox3UPVo-3LM-0",
+  "order": 135,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Ox3UPVo-3LM",
+  "video_title": "Full IELTS Test Breakdown for May 2024 with PhD Candidate 8.5 Writing",
+  "prompt": "Due to the increase in population in large cities, more and more people are living small houses with very little to no outdoor space. Is this a positive a negative development.?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-Ox3UPVo-3LM-1",
+  "order": 135,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Ox3UPVo-3LM",
+  "video_title": "Full IELTS Test Breakdown for May 2024 with PhD Candidate 8.5 Writing",
+  "prompt": "Some people suggest that schools should allow children to choose the subjects they want to learn. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
   "id": "forum-151Xp3FluVY-0",
   "order": 136,
   "task": 2,
@@ -1197,6 +1701,42 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=-E8eLSh8rZc",
   "video_title": "Full giải đề Actual Test IELTS tháng 4 cùng NCS. TS 8.5 IELTS",
   "prompt": "Recently, many companies have required their employees to stop remote working and get back to working the traditional way. Why? What is the impact?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-M8zJ8ElOcyo-0",
+  "order": 138,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=M8zJ8ElOcyo",
+  "video_title": "Full live giải đề thi thật IELTS cùng NCS. TS 8.5 IELTS",
+  "prompt": "Some people think that education should be free for children. Others think that everyone should be charged. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-Efp2hYCI83g-0",
+  "order": 139,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=Efp2hYCI83g",
+  "video_title": "Full giải đề IELTS ngày 27/4/2024 cùng NCS. TS 8.5 IELTS",
+  "prompt": "Some people claim that having a good salary is better than having job satisfaction. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-u8v2GEjn06Y-0",
+  "order": 140,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=u8v2GEjn06Y",
+  "video_title": "Full giải đề IELTS thật 2024 cùng NCS. Tiến Sĩ 8.5 IELTS",
+  "prompt": "Some people believe that the biggest problem facing cities is the increasing number of cars. Others say there are more serious problems. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-u8v2GEjn06Y-1",
+  "order": 140,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=u8v2GEjn06Y",
+  "video_title": "Full giải đề IELTS thật 2024 cùng NCS. Tiến Sĩ 8.5 IELTS",
+  "prompt": "Some people say that the main aim of advertising is to improve sales of products that people do not really need. To what extent do you agree or disagree?",
   "uncertain": false
  },
  {
@@ -1254,6 +1794,33 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-AqKJk5Yeycw-0",
+  "order": 147,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=AqKJk5Yeycw",
+  "video_title": "Full Live Task 2 đề thi IELTS mới nhất tháng 4 cùng NCS. Tiến Sĩ 8.5",
+  "prompt": "Some people say in order to prevent illnesses and diseases, governments should focus on reducing environmental pollution and housing problems. To what extent do you agree or disagree?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-AqKJk5Yeycw-1",
+  "order": 147,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=AqKJk5Yeycw",
+  "video_title": "Full Live Task 2 đề thi IELTS mới nhất tháng 4 cùng NCS. Tiến Sĩ 8.5",
+  "prompt": "Some people believe that professionals such as doctors and engineers should be required to work in the country where they did the training. Others believe they should be free to work in another country if they wish. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-AqKJk5Yeycw-2",
+  "order": 147,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=AqKJk5Yeycw",
+  "video_title": "Full Live Task 2 đề thi IELTS mới nhất tháng 4 cùng NCS. Tiến Sĩ 8.5",
+  "prompt": "Nowadays, many elderly people live alone, and this can cause a variety of issues for society. What are some of the issues? What are the solutions for them?",
+  "uncertain": false
+ },
+ {
   "id": "forum-stvDB84Pcfs-0",
   "order": 148,
   "task": 2,
@@ -1305,6 +1872,24 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=MrO6ZOx1-dQ",
   "video_title": "Full Live giải đề Task1/Task 2 IELTS cùng NCS. Tiến Sĩ 8.5 IELTS",
   "prompt": "In many cities, planners tend to arrange shops, schools, offices, and homes in specific areas and separate them from each other. Do you think the advantages outweigh the disadvantages?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-s_EX70QL1yM-0",
+  "order": 150,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=s_EX70QL1yM",
+  "video_title": "Full IELTS Task 1/Task 2 Writing Live Session with an 8.5 IELTS PhD Student",
+  "prompt": "Some people say that when deciding how taxes should be spent, governments should prioritize healthcare. Others think that there are more important priorities for tax payers. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-s_EX70QL1yM-1",
+  "order": 150,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=s_EX70QL1yM",
+  "video_title": "Full IELTS Task 1/Task 2 Writing Live Session with an 8.5 IELTS PhD Student",
+  "prompt": "Some people think that success in life comes from hardwork and determination, while others think that there are more important factors, such as money and appearance. Discuss both views and give your opinion.",
   "uncertain": false
  },
  {
@@ -1362,6 +1947,24 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-llVKP7ExtEk-0",
+  "order": 156,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=llVKP7ExtEk",
+  "video_title": "Full live IELTS cùng NCS. TS 8.5 IELTS",
+  "prompt": "The graph below shows the number of tourists visiting a particular Caribbean island between 2010 and 2017. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. [line graph]",
+  "uncertain": false
+ },
+ {
+  "id": "forum-KqicuLpdiOU-0",
+  "order": 157,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=KqicuLpdiOU",
+  "video_title": "Full live IELTS cùng NCS. TS 8.5 IELTS",
+  "prompt": "Around the world, people are now living longer than ever before. Some say an ageing population creates problems for governments. Others believe there are benefits to society having more elderly people. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
   "id": "forum-cgtlekgzJTQ-0",
   "order": 158,
   "task": 2,
@@ -1380,6 +1983,15 @@ window.FORUM_PROMPTS = [
   "uncertain": false
  },
  {
+  "id": "forum-kFK-AMA6R8Y-0",
+  "order": 160,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=kFK-AMA6R8Y",
+  "video_title": "Live IELTS trên Tiktok cùng NCS. TS 8.5 IELTS",
+  "prompt": "The graph below shows the number of shops that closed and the number of new shops that opened in one country between 2011 and 2018. [line graph: Number of shop closures and openings 2011-2018]",
+  "uncertain": false
+ },
+ {
   "id": "forum-UJZTgXy23NM-0",
   "order": 161,
   "task": 2,
@@ -1387,6 +1999,42 @@ window.FORUM_PROMPTS = [
   "video_title": "Live IELTS cùng NCS. TS 8.5",
   "prompt": "Some children spend hours every day on their smartphones. Why is this the case? Do you think this is a positive or a negative development?",
   "uncertain": false
+ },
+ {
+  "id": "forum-YTUbMoqu3kk-0",
+  "order": 162,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=YTUbMoqu3kk",
+  "video_title": "Full Live tiktok IELTS cùng NCS. TS 8.5 IELTS",
+  "prompt": "Some people think that young people should follow the traditions of their society. Others suggest that they should do anything they want. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-mrFFifr1oz0-0",
+  "order": 163,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=mrFFifr1oz0",
+  "video_title": "Full live Writing IELTS cùng NCS.TS 8.5 IELTS ngày 2.3",
+  "prompt": "Innovation is often driven by the pursuit of profit and economic growth. However, some argue that it should prioritize addressing social and environmental issues. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-o11z-kuAh1o-0",
+  "order": 164,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=o11z-kuAh1o",
+  "video_title": "Full Live IELTS cùng NCS. TS 8.5 IELTS Ngày 25/2",
+  "prompt": "Coffee and tea buying and drinking habits in five cities in Australia [bar chart; only chart title visible, no instruction sentence]",
+  "uncertain": true
+ },
+ {
+  "id": "forum-mbChEqDT-XQ-0",
+  "order": 165,
+  "task": 1,
+  "video": "https://www.youtube.com/watch?v=mbChEqDT-XQ",
+  "video_title": "Full Live IELTS Writing Session with 8.5 IELTS Instructor on February 20",
+  "prompt": "Daily sales in two different seasons of a restaurant in 2022. [bar chart: Average Daily Sales, by Number of Servings; teacher's summary, instruction sentence not visible]",
+  "uncertain": true
  },
  {
   "id": "forum-Hrbdhn-Owq8-0",
@@ -1566,6 +2214,33 @@ window.FORUM_PROMPTS = [
   "video": "https://www.youtube.com/watch?v=f64vY3cSbDw",
   "video_title": "Full Live Tiktok GV 8.5 IELTS hướng dẫn Writing và viết mẫu",
   "prompt": "Nowadays, most countries can improve the standards of living through economic development, but some social values are lost as a result. Do you think the advantages of this phenomenon outweigh the disadvantages?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-9hFKvDLDQRc-0",
+  "order": 176,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=9hFKvDLDQRc",
+  "video_title": "FULL LIVE 25.1 TIKTOK NCS TS. 8.5 Viết bài IELTS",
+  "prompt": "In many countries, a small number of people earn extremely high salaries. Some people think that this is good for the country, but others think that governments should not allow salaries above a certain level. Discuss both views and give your opinion.",
+  "uncertain": false
+ },
+ {
+  "id": "forum-9hFKvDLDQRc-1",
+  "order": 176,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=9hFKvDLDQRc",
+  "video_title": "FULL LIVE 25.1 TIKTOK NCS TS. 8.5 Viết bài IELTS",
+  "prompt": "With space travel being a reality, the prospect of space tourism is on the horizon. Do you view this as a positive or negative development?",
+  "uncertain": false
+ },
+ {
+  "id": "forum-9hFKvDLDQRc-2",
+  "order": 176,
+  "task": 2,
+  "video": "https://www.youtube.com/watch?v=9hFKvDLDQRc",
+  "video_title": "FULL LIVE 25.1 TIKTOK NCS TS. 8.5 Viết bài IELTS",
+  "prompt": "Everybody should donate a fixed amount of their income to support charity. To what extent do you agree or disagree?",
   "uncertain": false
  },
  {
